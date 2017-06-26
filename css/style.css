@@ -1,0 +1,60 @@
+.wall {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/background.png');
+    background-position: center;
+    
+}
+
+.cover {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+button {
+  background-color: #8B815E;
+  border-color: #8B815E;
+}
+
+@font-face {
+  font-family: "tequila";
+  src: url("../fonts/La Tequila.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.text-center {
+  font-family: tequila;
+   margin-bottom: 30px;
+  color: white; 
+}
+
+h1 {
+  font-family: tequila;
+  color: white;
+}
+
+.input-lg {
+
+  margin-top: 25px;
+}
+
+.beers-list {
+  color: white;
+    margin-top: 12px;
+}
+
+a {
+  color: white;
+  font-family: tequila;
+  width: 25%;
+}
+
+
