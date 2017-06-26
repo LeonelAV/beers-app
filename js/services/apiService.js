@@ -7,11 +7,17 @@ angular.module('beersApp')
           .then(response => response.data)
       }
 
+      function beerDescription(idBeer) {
+        var urlSearchDescription = 'https://quiet-inlet-67115.herokuapp.com/api/beer/' + idBeer
+        return $http.get(urlSearchDescription)
+          .then(response => response.data)
+      }
+
+
       return {
-        getBeers: getBeers
+        getBeers: getBeers,
+        beerDescription: beerDescription
       }
     })
-
-
 
 

@@ -1,5 +1,5 @@
 angular.module('beersApp')
-.controller('homeController', function ($scope,$rootScope, $location, apiService) {
+.controller('homeController', function ($scope, $rootScope, $location, apiService) {
   $scope.title = 'hello WORLD'
   
   $scope.getBeer = function () {
@@ -11,6 +11,6 @@ angular.module('beersApp')
         $rootScope.beers = response
   	    console.log(response)
   	  })
-      $location.path('/description')
+      $location.path('/beers')
   }
 })

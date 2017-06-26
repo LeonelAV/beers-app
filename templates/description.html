@@ -2,10 +2,15 @@
 <div class="container">
     <div class="cover">
         <div class="">
-        <h1>Beers</h1>
-            <ul class="row input-lg list-unstyled">
-                <li class="col-md-6 beers-list" ng-repeat="beer in beers" value="{{beer.id}}"><a href="#">{{beer.name}}</a></li>
-            </ul>
+            <h1 id="name-selected">{{nameSelected}} </h1>
+            <div class="row beer-info">
+                <div class="col-md-6">
+                  <p> {{description}} </p>
+                </div>
+                <div class="col-md-6">
+                    <p><img ng-src="{{image}}"></p>
+                </div>
+            </div>
         </div>
     </div>
 </div>

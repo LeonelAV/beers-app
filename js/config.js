@@ -5,9 +5,12 @@ angular.module('beersApp')
         templateUrl: 'templates/home.html',
         controller: 'homeController'
       })
-      .when('/description', {
-        templateUrl: 'templates/description.html',
+      .when('/beers', {
+        templateUrl: 'templates/beers.html',
         controller: 'descriptionController'
+      })
+      .when('/description', {
+        templateUrl: 'templates/description.html'
       })
   })
 

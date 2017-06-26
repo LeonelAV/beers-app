@@ -57,4 +57,15 @@ a {
   width: 25%;
 }
 
+.beer-info > div > p {
+  color: white;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+#name-selected {
+  display: flex;
+  justify-content: center;
+}
+
 
